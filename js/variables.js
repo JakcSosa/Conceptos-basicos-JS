@@ -11,7 +11,7 @@ const casado = false; //tipo 'booleano'
 
 // miNombre = 'Fausto';
 
-miEdad = 30
+miEdad = 29;
 
 console.log('Mi nombre: ' + miNombre);
 console.log('Mi edad: ' + miEdad);
