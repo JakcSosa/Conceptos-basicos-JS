@@ -6,4 +6,7 @@ let Auto = ['Deportivo', 'rojo', 'automatico', 250000000];
 
 //mostrar los datos del arreglo
 console.log(auto);
-console.log(Auto);
+console.log({Auto});
+
+// ejemplo 2
+const movies = ['Flash', 'Indiana Jones:5', 'Destino Final'];
