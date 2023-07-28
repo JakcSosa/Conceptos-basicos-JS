@@ -43,3 +43,7 @@ console.log({nuevoLibro, libros});
 
 // Agregar un nuevo elemento al principio del array de libros
 let elementoLibroPrincipito = libros.unshift('Crimen y Castigo');
+console.log({elementoLibroPrincipito, Libros});
+
+// eliminar un elemento del array de libros
+let borrarElemento = libros.splice(7);
