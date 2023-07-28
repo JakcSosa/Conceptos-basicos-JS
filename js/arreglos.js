@@ -40,3 +40,6 @@ console.log('Los valores: ', libros.length);
 // agregar nuevo elemento al array de libros
 let nuevoLibro = libros.push('El Principito');
 console.log({nuevoLibro, libros});
+
+// Agregar un nuevo elemento al principio del array de libros
+let elementoLibroPrincipito = libros.unshift('Crimen y Castigo');
