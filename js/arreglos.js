@@ -10,3 +10,22 @@ console.log({Auto});
 
 // ejemplo 2
 const movies = ['Flash', 'Indiana Jones:5', 'Destino Final'];
+// mostar todas las pelis
+console.log(movies);
+// mostrar solo la pelicula indiana
+console.log(movies[1]);
+
+// combinar arreglos
+let libros = [
+    'Sistemas',
+    'Contabilidad',
+    25000,
+    37000,
+    25000*0.2,
+    ['Wilson', 'Pedro', true, '14/07/23']
+];
+
+// mostrar toda la informacion de los libros
+console.log(libros); 
+// mostrar la fecha 
+console.log(libros[5][3]);
