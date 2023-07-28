@@ -29,3 +29,14 @@ let libros = [
 console.log(libros); 
 // mostrar la fecha 
 console.log(libros[5][3]);
+
+// muestra el ultimo valor de arreglo
+let ultimoValor = libros[libros.length - 1];
+console.log('El ultimo valor es: ', ultimoValor);
+
+// cuantos valores tiene el arrar de libros
+console.log('Los valores: ', libros.length);
+
+// agregar nuevo elemento al array de libros
+let nuevoLibro = libros.push('El Principito');
+console.log({nuevoLibro, libros});
