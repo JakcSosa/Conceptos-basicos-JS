@@ -33,6 +33,65 @@ console.warn('Ejemplo3: Mostrar profes');
 
 const materia1 = 'frontend';
 const materia2 = 'inglés';
-let diaMateria = 'Jueves';
+let diaMateria = 'jueves';
 
-if ()
+if (materia1 ==='frontend' && materia2==='inglés' && diaMateria === 'jueves') {
+    console.log('Los profes son: Jorge' + ' - ' + 'Fabiola');
+}else{
+    console.log('No son los profes');
+}
+
+// condicional switch, tambien se basa por una condicionn y se utiliza varios case
+// ejemplo4: Mostrar las actividades que realizan dependiendo del dia
+
+const diaActividad = 'sabado';
+
+switch (diaActividad) {
+    case 'lunes':
+        console.log('Trabajo');
+        console.log('Juegp PC');
+        console.log('Toco guitarra');
+
+        break;
+    case 'martes':
+        console.log('Trabajo');
+        console.log('Juegp PC');
+        console.log('Toco guitarra');
+
+        break;
+    case 'miercoles':
+        console.log('Toco guitarra');
+        console.log('Juegp PC');
+        console.log('Estudio');
+        
+
+        break;
+    case 'jueves':
+        console.log('Trabajo');
+        console.log('Juegp PC');
+        console.log('Toco guitarra');
+
+        break;
+    case 'viernes':
+        console.log('Trabajo');
+        console.log('Juegp PC');
+        console.log('Estudio');
+
+        break;
+    case 'sabado':
+        console.log('Trabajo');
+        console.log('Duermo');
+        console.log('en la noche unas politas suaves');
+
+        break;
+    case 'domingo':
+        console.log('Hago trabajos');
+        console.log('Duermo');
+        console.log('Voy al cine');
+
+        break;
+
+    default:
+        console.log('Error en sintaxis del dia');
+        break;
+}
