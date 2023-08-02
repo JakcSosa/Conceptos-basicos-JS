@@ -15,6 +15,8 @@ if (nombreMateria==='frontend') {
  * 
  */
 
+console.warn('Ejemplo2: Determinar el ingreso');
+
 let edadPersona = 18;
 
 if (edadPersona >= 18) {
@@ -22,3 +24,15 @@ if (edadPersona >= 18) {
 }else{
     console.log(`Tu edad es: ${edadPersona} - no puedes ingresar`);
 }
+
+/**
+ * Ejemplo3: Determinar los profes de ingles y frontend, el dia miercoles
+ */
+
+console.warn('Ejemplo3: Mostrar profes');
+
+const materia1 = 'frontend';
+const materia2 = 'inglés';
+let diaMateria = 'Jueves';
+
+if ()
